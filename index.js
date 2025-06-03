@@ -178,10 +178,9 @@ async function scrapeSite(course_url) {
             count++;
             console.log(`Download ${count}/${totalVideos} Started`);
         }
+        // Wait for all downloads in the unit to complete
+        await Promise.all(downloadPromises);
     }
-
-    // Wait for all downloads to complete
-    await Promise.all(downloadPromises);
 
     await page.close();
     await browser.close();
