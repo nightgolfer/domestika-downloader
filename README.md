@@ -13,6 +13,7 @@ Modified from original version to do the following, if parameter 'eng' is added 
 - After running, removes the 'final project' folder if empty.
 - Skips downloading files if already downloaded.
 - Skips downloading files if '*.en.mp4' (merged) file already present.
+- Will also download and merge English audio for already downloaded courses, **IF** *folder- or filenames have not been altered since downloading*.
 - Is _NOT_ capable of discerning language of video files / course! Will happily merge video + English audio file, even if original language of video is English!
 - Tested on MacOS; _NOT_ tested on Windows. YMMV.
 - Nobody Expects The Spanish Inquisition. 
