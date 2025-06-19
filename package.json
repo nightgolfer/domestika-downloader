@@ -1,7 +1,7 @@
 {
     "name": "domestika-downloader",
-    "version": "1.0.0",
-    "description": "",
+    "version": "1.0.1",
+    "description": "Adds ability to download English audio track and merge it with downloaded video, as well as some convenience stuff.",
     "main": "index.js",
     "scripts": {
         "start": "node index.js"
