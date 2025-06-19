@@ -22,7 +22,7 @@ Modified from original version to do the following, if parameter 'eng' is added 
 A. To Run NORMALLY (no downloading or merging of English audio track):   
    ```$ npm run start```
 
-B. To Run with FORCED ENGLISH AUDIO (merged into '*.en.mp4'):
+B. To Run with FORCED ENGLISH AUDIO (merged into '*.en.mp4'):   
    ```$ npm run start eng```
 
 
