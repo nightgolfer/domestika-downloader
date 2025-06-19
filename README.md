@@ -8,8 +8,8 @@ Modified from original version to do the following, if parameter 'eng' is added 
 
 - Downloads English audio track in addition to video files. 
 - After downloading, merges all video files with the English audio file (replacing the original audio) into a file named '*.en.mp4'.
-- - If CONFIGURATION > enable_cleanup is 'true': moves the original video file and the English audio file to a subfolder named '_cleanup_*' post-merge. Also runs cleanup on files in existing merge file ('*.en.mp4') found. Default: 'true'.
-- - If CONFIGURATION > enable_cleanup_consolidation is 'true' (and enable_cleanup is also 'true'): moves all '_cleanup_*' folders to a folder named '_cleanup' in the course root download folder. Also moves all existing '_cleanup_*' folders if found. Default: 'true'.
+    - If CONFIGURATION > enable_cleanup is 'true': moves the original video file and the English audio file to a subfolder named '_cleanup_*' post-merge. Also runs cleanup on files in existing merge file ('*.en.mp4') found. Default: 'true'.
+    - If CONFIGURATION > enable_cleanup_consolidation is 'true' (and enable_cleanup is also 'true'): moves all '_cleanup_*' folders to a folder named '_cleanup' in the course root download folder. Also moves all existing '_cleanup_*' folders if found. Default: 'true'.
 - After running, removes the 'final project' folder if empty.
 - Skips downloading files if already downloaded.
 - Skips downloading files if '*.en.mp4' (merged) file already present.
