@@ -29,16 +29,16 @@ B. To Run with FORCED ENGLISH AUDIO (merged into '*.en.mp4'):
 
 ### TODO
 
-- Explore if user's "My Courses" page can be parsed to fetch all purchased courses in one go.
-- Add ability to add a single course URL as a parameter on Run (ignoring course_urls).
-- Explore options for enabling merging other languages than English (not sure if courses are ever dubbed into other languages than English)
-- Make terminal output nicer / more informative ("currently downloading [course name]", download progress indicators, etc.)
-- Add extra space between 'Ux' and trailing dash in unit folder names (e.g.: "U1-" -> "U1 -")
-- Explore options for creating a complete .M3U playlist of the full course.
-- Explore making terminal experience interactive (prompt user for course URL if course_urls is empty, custom download folder, etc.)
+- [ ] Explore if user's "My Courses" page can be parsed to fetch all purchased courses in one go.
+- [ ]  Add ability to add a single course URL as a parameter on Run (ignoring course_urls).
+- [ ]  Explore options for enabling merging other languages than English (not sure if courses are ever dubbed into other languages than English)
+- [ ]  Make terminal output nicer / more informative ("currently downloading [course name]", download progress indicators, etc.)
+- [ ]  Add extra space between 'Ux' and trailing dash in unit folder names (e.g.: "U1-" -> "U1 -")
+- [ ]  Explore options for creating a complete .M3U playlist of the full course.
+- [ ]  Explore making terminal experience interactive (prompt user for course URL if course_urls is empty, custom download folder, etc.)
 
 
-## Original README content follows.
+## Original README content follows:
 
 
 This script is a simple way to download a full course from Domestika.
